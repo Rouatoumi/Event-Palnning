@@ -1,0 +1,30 @@
+.contact-form-container{
+    width: 50vw;
+} 
+
+.headline-style{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;  
+    font-weight: bold;
+    color: #66FCF1; 
+} 
+
+.input-style{
+    color:#C5C6C7; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+} 
+.btn{
+    background-color: #1F2833;
+
+} 
+.spacing{
+    margin-bottom: 90px;
+}
+
+/*Until the screen size is reached 768px keep applying below styling*/
+@media(max-width: 768px){
+    .contact-form-container{
+        width:88vw;
+    }
+}
